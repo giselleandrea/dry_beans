@@ -55,20 +55,20 @@ rails test .../dry_beans/test/controllers/api/v1/deliveries_controller_test.rb
 
 * Routes
 ```bash
-GET    http://localhost:3000 /api/v1/routes/show
-GET    http://localhost:3000 /api/v1/routes/route_trip/:id
-POST   http://localhost:3000 /api/v1/routes/create
-PUT    http://localhost:3000 /api/v1/routes/update/:id
-DELETE http://localhost:3000 /api/v1/routes/delete/:id
+GET    http://localhost:3000/api/v1/routes/show
+GET    http://localhost:3000/api/v1/routes/route_trip/:id
+POST   http://localhost:3000/api/v1/routes/create
+PUT    http://localhost:3000/api/v1/routes/update/:id
+DELETE http://localhost:3000/api/v1/routes/delete/:id
 ```
 
 * Trips
 ```bash
-GET    http://localhost:3000 /api/v1/trips/show
-GET    http://localhost:3000 /api/v1/trips/trip_show/:id
-POST   http://localhost:3000 /api/v1/trips/create
-PUT    http://localhost:3000 /api/v1/trips/update/:id
-DELETE http://localhost:3000 /api/v1/trips/delete/:id
+GET    http://localhost:3000/api/v1/trips/show
+GET    http://localhost:3000/api/v1/trips/trip_show/:id
+POST   http://localhost:3000/api/v1/trips/create
+PUT    http://localhost:3000/api/v1/trips/update/:id
+DELETE http://localhost:3000/api/v1/trips/delete/:id
 ```db
 
 * Deliveries
