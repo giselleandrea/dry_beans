@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  route_id: 1
+  nameTrip: trip 1
+  startDate: 2024-04-05
+
+two:
+  id: 2
+  route_id: 1
+  nameTrip: trip 2
+  startDate: 2024-04-05
+
+

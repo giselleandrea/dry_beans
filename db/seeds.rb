@@ -7,3 +7,29 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# Estados posibles en el modelo Delivery
+statuses = [
+    { id: 1, status: "En ruta" },
+    { id: 2, status: "Completado" },
+    { id: 3, status: "Pendiente" },
+    { id: 4, status: "Recibido" }
+]
+
+# Tipos del modelo Delivery
+delivery_types = [
+    { id: 1, typeDelivery: "Entrega" },
+    { id: 2, typeDelivery: "Retiro" }
+]
+
+statuses.each do |status|
+    Status.find_or_create_by(id: status[:id]) do |s|
+        s.status = status[:status]
+    end
+end
+
+delivery_types.each do |type|
+    TypeDelivery.find_or_create_by(id: type[:id]) do |t|
+        t.typeDelivery = type[:typeDelivery]
+    end
+end
