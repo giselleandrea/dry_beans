@@ -69,7 +69,7 @@ GET    http://localhost:3000/api/v1/trips/trip_show/:id
 POST   http://localhost:3000/api/v1/trips/create
 PUT    http://localhost:3000/api/v1/trips/update/:id
 DELETE http://localhost:3000/api/v1/trips/delete/:id
-```db
+```
 
 * Deliveries
 ```bash
